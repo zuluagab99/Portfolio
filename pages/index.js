@@ -145,7 +145,6 @@ const Home = () => (
             <Link href="https://github.com/zuluagab99" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
                 zuluagab99
@@ -156,7 +155,6 @@ const Home = () => (
             <Link href="https://twitter.com/zuluagab99" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
                 zuluagab99
@@ -167,7 +165,6 @@ const Home = () => (
             <Link href="https://instagram.com/_azuluagab" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
                 _azuluagab
