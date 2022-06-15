@@ -8,7 +8,7 @@ const LinkedIn =()=> {
             top="md"
             class="badge-base LI-profile-badge"
             data-locale="es_ES"
-            data-size="large"
+            data-size="medium"
             data-theme="dark"
             data-type="HORIZONTAL"
             data-vanity="alejandro-zuluaga-baron-342612217"
