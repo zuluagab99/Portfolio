@@ -21,6 +21,8 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
+import Script from 'next/script'
+import LinkedIn from '../components/linkedin'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -46,8 +48,8 @@ const Home = () => (
             Alejandro Zuluaga
           </Heading>
           <List>
-          <ul>Mechanical engineer</ul>
-          <ul>Developer</ul>
+          <ListItem>Mechanical engineer</ListItem>
+          <ListItem>Developer</ListItem>
           </List>
         </Box>
         <Box
@@ -123,17 +125,13 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Interest
         </Heading>
-        <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
-        </Paragraph>
+        <List>
+          <ListItem>Motorsports</ListItem>
+          <ListItem>Music</ListItem>
+          <ListItem>Front-end</ListItem>
+          <ListItem>Back-end</ListItem>
+          <ListItem>Machine learning</ListItem>
+        </List>
       </Section>
 
       <Section delay={0.3}>
@@ -198,6 +196,20 @@ const Home = () => (
           </NextLink>
         </Box> */}
       </Section>
+
+      <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Connect with me
+          </Heading>
+          <LinkedIn>
+          </LinkedIn>
+        </Section>
+        
+
+        
+        <Script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
+        </Script>
+
     </Container>
   </Layout>
 )
