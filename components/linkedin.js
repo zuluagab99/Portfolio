@@ -10,15 +10,14 @@ const LinkedIn =()=> {
             data-locale="es_ES"
             data-size="medium"
             data-theme="dark"
-            data-type="HORIZONTAL"
+            data-type="VERTICAL"
             data-vanity="alejandro-zuluaga-baron-342612217"
             data-version="v1">
 
-            <Box 
-                align="center"
+            <a 
                 class="badge-base__link LI-simple-link"
                 href="https://co.linkedin.com/in/alejandro-zuluaga-baron-342612217?trk=profile-badge">
-            </Box>
+            </a>
         </Center>
     )
     
@@ -26,4 +25,5 @@ const LinkedIn =()=> {
 
 export default LinkedIn
 
+              
               
