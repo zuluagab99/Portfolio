@@ -8,8 +8,8 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-        <Script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
-        </Script>
+          <Script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
+          </Script>
         </Head>
         <Head />
         <body>
