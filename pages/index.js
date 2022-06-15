@@ -107,15 +107,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Leaded the IT area in my mom's e-commerce startup, starting with the automation of little task with python, RPA, and Visual Basic. Begun my travel with the web development basics. 
+          Leaded the IT area in my mom's e-commerce startup, starting with the automation of little task with python, RPA, and Visual Basic.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Started to design a customize Shopify themes for a clothing store, a clothing company and a hairdressing store.
+          Worked with small and medium size business designing and customizing Shopify themes.
         </BioSection>
         <BioSection>
           <BioYear>Now</BioYear>
-          I did finish my studies as bachelor and I'm waiting to get my degree as a mechanical engineer
+          Currently awaiting my mechanical engineering bachelor degree ceremony and learning front-end and back-end to become a fullstack developer.
         </BioSection>
       </Section>
 
