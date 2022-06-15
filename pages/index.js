@@ -201,14 +201,9 @@ const Home = () => (
           <Heading as="h3" variant="section-title">
             Connect with me
           </Heading>
-          <LinkedIn>
-          </LinkedIn>
-        </Section>
-        
-
-        
-        <Script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
-        </Script>
+        <LinkedIn>
+        </LinkedIn>
+      </Section>
 
     </Container>
   </Layout>
