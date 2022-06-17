@@ -81,10 +81,10 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Profile
         </Heading>
         <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Mechanical engineer and self-taught developer, who is really passionated about technology, automation and problem resolution. Currently I'm aiming to become a full-stack developer to embrace any challenge for processes improvement. Personally an absolute motorsport fan and car enthusiast. 
         </Paragraph>
         {/* <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
